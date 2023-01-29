@@ -7,3 +7,5 @@ Create a calender application in the browser that features dynamically updated H
 https://diamante710.github.io/challenge-5/
 
 ## Site Mock Up
+![Screenshot Capture - 2023-01-29 - 15-17-29](https://user-images.githubusercontent.com/120080703/215358768-887c2085-c476-427a-97b0-a0ce9bfdb268.jpg)
+![Screenshot Capture - 2023-01-29 - 15-17-58](https://user-images.githubusercontent.com/120080703/215358771-ad2b7b25-0e63-41b0-9eee-b6a5f124ae0c.jpg)

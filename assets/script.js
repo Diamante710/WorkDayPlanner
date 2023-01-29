@@ -85,9 +85,8 @@ now();
 //     set it to local stroage//
 
 $(".saveBtn").on("click", function () {
-    var textArea = $(this).siblings(".description").val();
     var timeBlock = $(this).parent().attr("id");
-
+    var textArea = $(this).siblings(".description").val();
     localStorage.setItem(timeBlock, textArea);
 });
   
