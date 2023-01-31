@@ -100,8 +100,8 @@ $("#hour-15 .description").val(localStorage.getItem("hour-15"));
 $("#hour-16 .description").val(localStorage.getItem("hour-16"));
 $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 
-displayTime();
-setInterval(displayTime, 1000);
+displayDate();
+setInterval(displayDate, 1000);
 
 // WHEN I refresh the page
 // THEN the saved events persist
