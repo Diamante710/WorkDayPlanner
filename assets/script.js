@@ -38,13 +38,13 @@
 // dayjs.extend(customParseFormat)
 // dayjs("MMMM-DD-YYYY")
 
-var timeDisplayEl = $('#currentDay');
+var todayEl = $('#currentDay');
 var rowEl = $(".row")
 
 
-function displayTime() {
-    var rightNow = dayjs().format('[Today is] dddd, MMMM DD, YYYY [at] hh:mm:ss a');
-    timeDisplayEl.text(rightNow);
+function displayDate() {
+    var Now = dayjs().format('[Today is] dddd, MMMM DD, YYYY [at] hh:mm:ss a');
+    todayEl.text(Now);
 };
 
 // WHEN I scroll down
@@ -85,9 +85,9 @@ now();
 //     set it to local stroage//
 
 $(".saveBtn").on("click", function () {
-    var timeBlock = $(this).parent().attr("id");
-    var textArea = $(this).siblings(".description").val();
-    localStorage.setItem(timeBlock, textArea);
+    var time = $(this).parent().attr("id");
+    var text = $(this).siblings(".description").val();
+    localStorage.setItem(time, text);
 });
   
 $("#hour-09 .description").val(localStorage.getItem("hour-09"));
